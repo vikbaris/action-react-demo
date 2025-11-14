@@ -1,5 +1,5 @@
 name: Test project
-on: [push, workflow_dispatch]
+on: [push, workflow_dispatch] #tekrar çalıştırabilmek için
 jobs:
   test:
       runs-on: ubuntu-latest
